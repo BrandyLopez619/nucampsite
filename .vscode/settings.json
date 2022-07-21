@@ -1,0 +1,21 @@
+{
+  "editor.renderWhitespace": "all",
+  "diffEditor.ignoreTrimWhitespace": false,
+"indentRainbow.errorColor": "rgba(0,255,0,0.05)",
+"indentRainbow.lightIndicatorStyleLineWidth": 2,
+
+"indentRainbow.colors": [
+
+
+    "rgba(255,255,0,1)",
+    "rgba(0,255,255,1)",
+    "rgba(255,200,0,1)",
+    "rgba(0,200,255,1)",
+    "rgba(255,155,0,1)",
+    "rgba(0,155,255,1)",
+    "rgba(255,55,0,1)",
+    "rgba(0,100,255,1)",
+    "rgba(255,0,0,1)",
+    "rgba(0,55,255,1)",
+]
+}
