@@ -53,9 +53,9 @@
                     <div class="container-fluid">
                         <form id="reserveForm">
                             <div class="row form-group">
-                                <label class="col-sm-6 col-12 col-form-label" for="numCampers">Number of Campers</label>
+                                <label class="col-sm-6 col-12" for="numCampers">Number of Campers</label>
                                 <div class="col-sm-6 col-12">
-                                    <select name="numCampers" id="numCampers" class="col form-control">
+                                    <select name="numCampers" id="numCampers" class="col col-form-label">
                                         <option selected>Select...</option>
                                         <option>1</option>
                                         <option>2</option>
@@ -67,29 +67,30 @@
                                 </div>
                             </div>
                             <div class="row form-group">
-                                <label class="col-sm-6 col-12 col-form-label" name="Date" for="date">Date</label>
+                                <label class="col-sm-6 col-12" name="Date" for="date">Date</label>
                                 <div class="col-sm-6 col-12">
                                     <input type="date" id="date" name="date" placeholder="Date"
-                                        class="col form-control" />
+                                        class="col col-form-label" />
                                 </div>
                             </div>
                             <div class="row form-group">
                                 <label class="col-sm-6 col-12 col-form-label" name="Type" for="type">
                                     Campsite Type</label>
-                                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-success active">
-                                        <input type="radio" name="siteType" id="siteTent" value="tent"
-                                            autocomplete="off" checked> Tent
-                                    </label>
-                                    <label class="btn btn-primary">
-                                        <input type="radio" name="siteType" id="siteRV" value="RV" autocomplete="off">
-                                        RV
-                                    </label>
-                                </div>
+                                    <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                            <label class="btn btn-secondary active bg-success">
+                                              <input type="radio" name="siteType" id="siteTent" value="tent" autocomplete="off" checked> Tent
+                                            </label>
+                                            <label class="btn btn-secondary bg-primary">
+                                              <input type="radio" name="siteType" id="siteRV" value="RV" autocomplete="off"> RV
+                                            </label>
+                                          </div>
+                                    </div>
+                                </label>
                             </div>
                             <div class="row form-group">
                                 <div class="col">
-                                    <button type="submit" data-dismiss="modal" class="btn btn-secondary">Cancel</button>
+                                    <button type="submit" data-dismiss="modal" class="btn btn-primary bg-secondary">Cancel</button>
                                     <button type="submit" class="btn btn-primary">Search</button>
                                 </div>
                             </div>
@@ -276,7 +277,43 @@
             </div>
         </div>
     </div>
-
+    <div class="row row-content">
+        <div class="col-sm-9 mx-auto">
+            <div class="card">
+                <h3 class="bg-info text-white card-header">Reserve a Campsite</h3>
+                <div class="card-body">
+                    <form id="reserveForm">
+                        <div class="row">
+                            <label class="col-sm-6 col-12" for="numCampers">Number of Campers</label>
+                            <div class="col-sm-6 col-12">
+                                <select name="numCampers" id="numCampers" class="col col-form-label">
+                                    <option selected>Select...</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label class="col-sm-6 col-12" name="Date" for="date">Date</label>
+                            <div class="col-sm-6 col-12">
+                                <input type="date" id="date" name="date" placeholder="Date"
+                                    class="col col-form-label" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button type="submit" class="btn btn-primary">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer class="site-footer">
         <div class="container">
             <div class="row">

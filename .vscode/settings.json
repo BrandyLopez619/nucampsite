@@ -1,21 +1,27 @@
 {
   "editor.renderWhitespace": "all",
   "diffEditor.ignoreTrimWhitespace": false,
-"indentRainbow.errorColor": "rgba(0,255,0,0.05)",
+"indentRainbow.errorColor": "rgba(0,255,0,0.1)",
 "indentRainbow.lightIndicatorStyleLineWidth": 2,
 
 "indentRainbow.colors": [
 
 
-    "rgba(255,255,0,1)",
-    "rgba(0,255,255,1)",
-    "rgba(255,200,0,1)",
-    "rgba(0,200,255,1)",
-    "rgba(255,155,0,1)",
-    "rgba(0,155,255,1)",
-    "rgba(255,55,0,1)",
-    "rgba(0,100,255,1)",
-    "rgba(255,0,0,1)",
-    "rgba(0,55,255,1)",
+
+    "rgba(86,156,214,1)",  //cyan 
+    "rgba(230,180,34,1)", //gold
+    "rgba(199,0,103,1)", //magenta
+    "rgba(0,169,96,1)", //mint
+    "rgba(252,116,130,1)", //salmon
+    "rgba(230,180,34,1)", //gold
+    "rgba(199,0,103,1)", //magenta
+    "rgba(0,169,96,1)", //mint
+    "rgba(252,116,130,1)", //salmon
+    "rgba(230,180,34,1)", //gold
+    "rgba(199,0,103,1)", //magenta
+    "rgba(0,169,96,1)", //mint
+    "rgba(252,116,130,1)", //salmon
+    "rgba(230,180,34,1)", //gold
+
 ]
 }
